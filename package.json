@@ -1,6 +1,6 @@
 {
-  "name": "pv-editor",
-  "version": "2.6.18",
+  "name": "pv-mavon-editor",
+  "version": "1.0.0",
   "description": "Vue markdown editor",
   "main": "dist/mavon-editor.js",
   "scripts": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/7t7t/mavonEditor.git"
+    "url": "git+https://github.com/7t7t/pv-mavon-editor.git"
   },
   "keywords": [
     "javascript",
