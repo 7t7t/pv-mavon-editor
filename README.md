@@ -3,7 +3,7 @@
 ![npm](https://nodei.co/npm/mavon-editor.png?downloads=true&downloadRank=true&stars=true)
 
 > 基于Vue的markdown编辑器
-> 来自CHENXCHEN的mavon-editor, 此为修复pr#377的一个分支版本，为获得长久支持请前往下载mavon-editor
+> 来自CHENXCHEN的mavon-editor, 此为修复pr#377的一个分支版本，如需要长久支持，可以前往关注mavon-editor
 
 ### [English Documents](./README-EN.md)
 [Demo for jsfiddle](https://jsfiddle.net/CHENXCHEN/qf7gLw3a/3/)
@@ -168,7 +168,7 @@ toolbars: {
 <template>
     <mavon-editor ref=md @imgAdd="$imgAdd" @imgDel="$imgDel"></mavon-editor>
 </template>
-exports default {
+export default {
     methods: {
         // 绑定@imgAdd event
         $imgAdd(pos, $file){
@@ -276,6 +276,7 @@ exports default {
 ## Collaborators(合作者)
 
 - [CHENXCHEN](https://github.com/CHENXCHEN)
+- [7t7t](https://github.com/7t7t)
 
 
 ## Licence (证书)
