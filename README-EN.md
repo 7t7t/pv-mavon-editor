@@ -2,7 +2,7 @@
 ![npm](https://nodei.co/npm/mavon-editor.png?downloads=true&downloadRank=true&stars=true)
 
 > A markdown editor based on Vue
-
+> This is a branch version, for fixed the  Mavon-editor pr#377, you can go to download mavrot-editor for long term support
 ### [中文说明](./README.md)
 
 ## Example Pictures
@@ -16,9 +16,9 @@
 
 ## Use Setup
 
-### Install mavon-editor
+### Install pv-mavon-editor
 ```
-$ npm install mavon-editor --save
+$ npm install pv-mavon-editor --save
 ```
 
 ### Use
@@ -28,8 +28,8 @@ $ npm install mavon-editor --save
     // Global Registration
     // import with ES6
     import Vue from 'vue'
-    import mavonEditor from 'mavon-editor'
-    import 'mavon-editor/dist/css/index.css'
+    import mavonEditor from 'pv-mavon-editor'
+    import 'pv-mavon-editor/dist/css/index.css'
 
     // use
     Vue.use(mavonEditor)

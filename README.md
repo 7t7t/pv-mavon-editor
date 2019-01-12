@@ -3,6 +3,7 @@
 ![npm](https://nodei.co/npm/mavon-editor.png?downloads=true&downloadRank=true&stars=true)
 
 > 基于Vue的markdown编辑器
+> 来自CHENXCHEN的mavon-editor, 此为修复pr#377的一个分支版本，为获得长久支持请前往下载mavon-editor
 
 ### [English Documents](./README-EN.md)
 [Demo for jsfiddle](https://jsfiddle.net/CHENXCHEN/qf7gLw3a/3/)
@@ -17,10 +18,10 @@
 
 > [查看更多图片点击这里...](./doc/cn/images.md)
 
-### Install mavon-editor (安装)
+### Install pv-mavon-editor (安装)
 
 ```
-$ npm install mavon-editor --save
+$ npm install pv-mavon-editor --save
 ```
 
 ### Use (如何引入)
@@ -30,8 +31,8 @@ $ npm install mavon-editor --save
     // 全局注册
     // import with ES6
     import Vue from 'vue'
-    import mavonEditor from 'mavon-editor'
-    import 'mavon-editor/dist/css/index.css'
+    import mavonEditor from 'pv-mavon-editor'
+    import 'pv-mavon-editor/dist/css/index.css'
     // use
     Vue.use(mavonEditor)
     new Vue({
