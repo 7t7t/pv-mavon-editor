@@ -416,9 +416,10 @@ export default {
                 $file.miniurl = oFREvent.target.result;
                 if (isinsert === true) {
                     // 去除特殊字符
+                    $file._name = $file.name.replace(/[\[\]]/g, '');
                     $vm.insertText($vm.getTextareaDom(),
                         {
-                            prefix: '![' + $file.name + '](' + pos + ')',
+                            prefix: '![' + $file._name + '](' + pos + ')',
                             subfix: '',
                             str: ''
                         });
